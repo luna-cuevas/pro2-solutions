@@ -1,0 +1,6 @@
+{
+    "prettier.printWidth": 40,
+    "editor.wordWrapColumn": 60,
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off"
+}
