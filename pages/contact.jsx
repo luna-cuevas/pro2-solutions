@@ -1,8 +1,12 @@
 import React from 'react'
+import ContactForm from '../components/ContactForm'
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <div>
+      <ContactForm />
+      <img src="/images/contact-us.png" alt="" />
+    </div>
   )
 }
 
