@@ -6,8 +6,8 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(true)
 
   return (
-    <nav id="site-menu" class="flex flex-wrap w-screen h-fit pl-12 justify-between pr-12 border-2 border-gray-700 bg-[#2F3566]">
-      <div className='flex w-28 h-16 relative'>
+    <nav id="site-menu" class="flex flex-wrap w-screen h-fit pl-12 md:justify-around justify-between pr-12 border-2 border-gray-700 bg-[#2F3566]">
+      <div className='flex w-28 h-16 md:w-40 my-2 relative'>
         <Image className='drop-shadow-lg' src="/images/pro2-logo.png" alt="logo" layout='fill' objectFit='contain' />
       </div>
       <div className='flex relative w-fit h-fit'>
@@ -17,11 +17,11 @@ const NavBar = () => {
           </button>
         </div>
       </div>
-      <div id="menu" class={`w-screen text-xl text-white sm:w-auto gap-4 self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 ${isOpen ? 'hidden' : 'flex'}`}>
-        <Link href='/'>Home</Link>
-        <Link href='/about'>About</Link>
-        <Link href='/brands'>Brands</Link>
-        <Link href='/contact'>Contact Us</Link>
+      <div id="menu" class={`w-screen text-xl text-white sm:w-auto gap-4 md:gap-8 self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 ${isOpen ? 'hidden' : 'flex'}`}>
+        <h2 className='hover:underline underline-offset-4'><Link className='hover:underline hover:underline-offset-4' href='/'>Home</Link></h2>
+        <h2 className='hover:underline underline-offset-4'><Link className='underline' href='/about'>About</Link></h2>
+        <h2 className='hover:underline underline-offset-4'><Link href='/brands'>Brands</Link></h2>
+        <h2 className='hover:underline underline-offset-4'><Link href='/contact'>Contact Us</Link></h2>
       </div>
     </nav>
   )
