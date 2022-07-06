@@ -2,10 +2,10 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div>
+    <div className='h-fit overflow-hidden'>
       <div className='flex mt-10 flex-col'>
-        <h1 className='m-auto mb-2 text-xl'>Contact Us</h1>
-        <div className="w-5/6 pb-4 md:w-96 md:max-w-full mx-auto">
+        <h1 className='text-white m-auto mb-2 text-2xl md:text-3xl'>Contact Us</h1>
+        <div className="w-5/6 pb-4 md:max-w-[700px] mx-auto">
           <div className="p-6 rounded-xl border border-gray-600 sm:rounded-md bg-gray-800">
             <form method="POST" action="https://herotofu.com/start">
               <label className="block mb-6">
@@ -31,7 +31,7 @@ const ContactForm = () => {
                 <span className="text-gray-300">Message</span>
                 <textarea
                   name="message"
-                  className=" p-2 border-2 block w-full mt-1 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-gray-600 text-gray-300 "
+                  className="md:h-[200px] p-2 border-2 block w-full mt-1 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-gray-600 text-gray-300 "
                   rows="3"
                   placeholder="Tell us what you're thinking about..."
                 ></textarea>
