@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Footer = () => {
+const Footer = ({ toBottom }) => {
   return (
-    <div className='h-fit order-1 bg-[#2F3566] flex-wrap text-white px-20 flex justify-between md:justify-center w-screen'>
+    <div className={`h-fit order-1 bg-[#2F3566] ${toBottom ? 'absolute bottom-0' : ''} flex-wrap text-white px-20 flex justify-between md:justify-center w-screen`}>
       <div className='py-4 md:w-1/4'>
         <div className='mb-3 w-[200px] m-auto flex gap-3'>
           <img className='w-6 h-6' src="/images/footer/linkedin.png" alt="" />
