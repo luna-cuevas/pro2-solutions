@@ -7,8 +7,8 @@ const NavBar = () => {
 
   return (
     <nav id="site-menu" class="flex flex-wrap w-screen h-fit pl-12 md:justify-around justify-between pr-12 border-2 border-gray-700 bg-[#2F3566]">
-      <div className='flex w-28 h-16 md:w-40 my-2 relative'>
-        <Image className='drop-shadow-lg' src="/images/pro2-logo.png" alt="logo" layout='fill' objectFit='contain' />
+      <div className='flex md:w-40 my-2'>
+        <img className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
       </div>
       <div className='flex relative w-fit h-fit'>
         <div class="w-fit sm:w-auto self-start sm:self-center flex flex-col sm:flex-none flex-no-wrap justify-between items-center">
