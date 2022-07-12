@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Myriad Pro";
-    src: url("/public/fonts/Myriad\ Pro\ Regular.ttf")
+    src: url("/fonts/myriad-pro-regular.ttf")
     format("truetype");
     font-weight: normal;
     font-style: normal;
@@ -12,9 +12,17 @@
 
 @font-face {
   font-family: "Myriad Pro";
-  src: url("/public/fonts/Myriad\ Pro\ Light.otf")
+  src: url("/fonts/myriad-pro-light.otf")
   format("OpenType");
   font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("/fonts/myriad-pro-bold.ttf")
+  format("truetype");
+  font-weight: bold;
+  font-style: bold;
 }
 
 html {
