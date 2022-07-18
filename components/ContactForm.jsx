@@ -12,10 +12,11 @@ const ContactForm = () => {
     const [emailSent, setEmailSent] = useState(false);
     // EmailJS setting id and template id variables
     const submit = () => {
+        e.preventDefault();
         if (name && email && message) {
             const serviceId = 'service_17jmphm';
             const templateId = 'template_opecjma';
-            const userId = 'user_JcD1331LVSdIeKGHTgDqA';
+            const userId = 'C0ajegZGgw9rSLDxd';
             const templateParams = {
                 name,
                 email,
@@ -50,6 +51,8 @@ const ContactForm = () => {
                   type="text"
                   className="focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full p-2 mt-1 text-gray-300 placeholder-gray-600 bg-transparent border-2 border-gray-600 rounded-md shadow-sm"
                   placeholder="Joe Bloggs"
+                  value={name}
+                  onChange={e => setName(e.target.value)}
                 />
               </label>
               <label className="block mb-6">
@@ -60,6 +63,8 @@ const ContactForm = () => {
                   className=" focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full p-2 mt-1 text-gray-300 placeholder-gray-600 bg-transparent border-2 border-gray-600 rounded-md shadow-sm"
                   placeholder="joe.bloggs@example.com"
                   required
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
                 />
               </label>
               <label className="block mb-6">
@@ -69,6 +74,8 @@ const ContactForm = () => {
                   className="md:h-[200px] p-2 border-2 block w-full mt-1 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-gray-600 text-gray-300 "
                   rows="3"
                   placeholder="Tell us what you're thinking about..."
+                  value={message}
+                  onChange={e => setMessage(e.target.value)}
                 ></textarea>
               </label>
               <div className="flex mb-6">
@@ -82,6 +89,7 @@ const ContactForm = () => {
                 </button>
               </div>
             </form>
+            <span className={emailSent ? 'visible text-white' : 'hidden'}>Thank you for your message, we will be in touch in no time!</span>
           </div>
         </div>
       </div>
