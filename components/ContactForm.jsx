@@ -3,38 +3,36 @@ import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 
 const ContactForm = () => {
-
   const form = useRef()
-
   const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [emailSent, setEmailSent] = useState(false);
-    // EmailJS setting id and template id variables
-    const submit = () => {
-        e.preventDefault();
-        if (name && email && message) {
-            const serviceId = 'service_17jmphm';
-            const templateId = 'template_opecjma';
-            const userId = 'C0ajegZGgw9rSLDxd';
-            const templateParams = {
-                name,
-                email,
-                message
-            };
-            // If variable isn't set or input is missing, error will be console logged
-            emailjs.send(serviceId, templateId, templateParams, userId)
-                .then(response => console.log(response))
-                .then(error => console.log(error));
-            // After email has been sent, all variables are now set to blank again.
-            setName('');
-            setEmail('');
-            setMessage('');
-            setEmailSent(true);
-        } else {
-            // if no data is input, error will alert user
-            alert('Please fill in all fields.');
-        }
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [emailSent, setEmailSent] = useState(false);
+  // EmailJS setting id and template id variables
+  const submit = () => {
+    e.preventDefault();
+    if (name && email && message) {
+      const serviceId = 'service_17jmphm';
+      const templateId = 'template_opecjma';
+      const userId = 'C0ajegZGgw9rSLDxd';
+      const templateParams = {
+        name,
+        email,
+        message
+      };
+      // If variable isn't set or input is missing, error will be console logged
+      emailjs.send(serviceId, templateId, templateParams, userId)
+        .then(response => console.log(response))
+        .then(error => console.log(error));
+      // After email has been sent, all variables are now set to blank again.
+      setName('');
+      setEmail('');
+      setMessage('');
+      setEmailSent(true);
+    } else {
+      // if no data is input, error will alert user
+      alert('Please fill in all fields.');
+    }
   }
   
   return (
@@ -80,12 +78,10 @@ const ContactForm = () => {
               </label>
               <div className="flex mb-6">
                 <button
-                
                   type="submit"
                   value='Send'
-                  className=" focus:shadow-outline hover:bg-indigo-800 h-10 px-5 m-auto text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg"
-                >
-                  Contact Us
+                  className=" focus:shadow-outline hover:bg-indigo-800 h-10 px-5 m-auto text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg">
+                    Contact Us
                 </button>
               </div>
             </form>
