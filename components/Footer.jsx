@@ -18,20 +18,20 @@ const Footer = () => {
           <img className='w-6 h-6' src="/images/footer/pin.png" alt="" />
           <h2 className='w-32 text-sm font-light'>
             <Link href='https://goo.gl/maps/TuzRaTdrrFC9tAmL8'>
-              <>
-              828 San Pablo Ave <br />
-              Pinole, CA 94564s
-              </>
+              828 San Pablo Ave
+              Pinole, CA 94564
             </Link>
           </h2>
         </div>
       </div>
-      <div className='md:order-3 md:w-1/4 flex flex-col w-1/2 gap-1 py-4 font-normal text-center'>
-        <h2><Link href='/'>Home</Link></h2>
-        <h2><Link href='/about'>About Us</Link></h2>
-        <h2><Link href='/brands'>Brands</Link></h2>
-        <h2><Link href='/contact'>Contact Us</Link></h2>
-        <h2><Link href='/terms'><>Terms & <br /> Conditions</></Link></h2>
+      <div className='md:order-3 md:w-1/4 flex flex-col justify-center w-1/2 gap-1 py-4 font-normal'>
+        <div className='w-fit m-auto text-left'>
+          <h2><Link href='/'>Home</Link></h2>
+          <h2><Link href='/about'>About Us</Link></h2>
+          <h2><Link href='/brands'>Brands</Link></h2>
+          <h2><Link href='/contact'>Contact Us</Link></h2>
+          <h2><Link href='/terms'>Terms & Conditions</Link></h2>
+        </div>
       </div>
       <div className='md:w-1/4 flex flex-col order-2 w-screen'>
         <Link href="/">

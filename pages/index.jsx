@@ -17,14 +17,14 @@ const index = () => {
     <div className='w-screen h-full'>
       <div className='h-4/6 sm:h-fit relative'>
         <div className='md:block hidden w-screen h-full'>
-          <div className='opacity-30 absolute z-[2] w-screen h-full bg-black' />
-          <Image width={860} height={249} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/hero-image-desktop.jpeg" alt="" />
+          <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
+          <Image width={1000} height={500} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/pro2-warehouse.jpg" alt="" />
         </div>
         <div className='h-fit md:hidden'>
-          <div className='opacity-40 absolute z-[2] w-screen h-full bg-black' />
-          <Image width={667} height={1000} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/hero-image-mobile.jpg" alt="" />
+          <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
+          <Image width={499} height={500} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/pro2-warehouse-mobile.jpg" alt="" />
         </div>
-        <div className='absolute z-50 text-2xl lg:text-3xl xl:text-4xl font-bold top-1/2 left-10 sm:top-10 md:top-14 xl:top-56 2xl:top-96 sm:left-[100px] text-white'>
+        <div className='absolute z-50 text-3xl lg:text-4xl xl:text-5xl font-bold top-1/2 left-10 sm:left-[100px] text-white'>
           Your Professional,<br />
           Protective Solutions Partner
           <br />
@@ -64,7 +64,7 @@ const index = () => {
             </mask>
           </defs>
         </svg>
-        <p className='lg:w-1/2 top-10 py-14 lg:text-2xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
+        <p className='lg:w-1/2 top-10 py-14 lg:text-3xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-2xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
       </div>
       {/* About Us Blocks */}
       <div className='h-fit md:flex-row flex flex-col flex-wrap m-auto'>

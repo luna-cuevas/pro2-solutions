@@ -9,7 +9,7 @@ const ContactForm = () => {
   const [message, setMessage] = useState('');
   const [emailSent, setEmailSent] = useState(false);
   // EmailJS setting id and template id variables
-  const submit = () => {
+  const submit = (e) => {
     e.preventDefault();
     if (name && email && message) {
       const serviceId = 'service_17jmphm';
