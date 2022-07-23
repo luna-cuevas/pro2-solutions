@@ -1,6 +1,5 @@
 import ContactForm from '../components/ContactForm'
 import { useCountUp } from 'react-countup';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const index = () => {
@@ -18,11 +17,11 @@ const index = () => {
       <div className='h-4/6 sm:h-fit relative'>
         <div className='md:block hidden w-screen h-full'>
           <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
-          <Image priority width={1000} height={500} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/pro2-warehouse.jpg" alt="" />
+          <img priority width={1000} height={500} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/pro2-warehouse.jpg" alt="" />
         </div>
         <div className='h-fit md:hidden'>
           <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
-          <Image priority width={499} height={500} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/pro2-warehouse-mobile.jpg" alt="" />
+          <img priority width={499} height={500} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/pro2-warehouse-mobile.jpg" alt="" />
         </div>
         <div className='absolute z-50 text-2xl lg:text-4xl xl:text-5xl font-bold top-1/2 left-10 sm:left-[100px] text-white'>
           Your Professional,<br />
@@ -37,17 +36,17 @@ const index = () => {
       <div className='h-fit md:flex-row flex flex-col w-screen'>
         <div className='h-[125px] md:h-[300px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='block w-1/2 m-auto'>
-            <Image loading='lazy' width={1249} height={196} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/cranberry-logo.png" alt="" />
+            <img className='w-full m-auto' src="/images/cranberry-logo.png" alt="" />
           </div>
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 flex'>
           <div className='block w-1/2 m-auto'>
-            <Image loading='lazy' width={1000} height={180} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/beesure-logo.png" alt="" />
+            <img className='w-full m-auto' src="/images/beesure-logo.png" alt="" />
           </div>
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='block w-1/5 m-auto'>
-            <Image loading='lazy' width={2032} height={2011} layout='responsive' className='h-4/6 md:h-1/3 w-auto m-auto' src="/images/asap-logo.png" alt="" />
+            <img className='h-4/6 md:h-1/3 w-auto m-auto' src="/images/asap-logo.png" alt="" />
           </div>
         </div>
       </div>
@@ -71,7 +70,7 @@ const index = () => {
         <div className='md:w-1/2 md:border-r-2 flex flex-col w-screen py-6 m-auto overflow-hidden border-b-2 border-gray-500'>
           <div className='h-[200px] md:w-[300px] flex md:h-[300px] bg-[#ececec] m-auto w-[200px] border-2 border-[#236B97] rounded-[50%]'>
             <div className='block w-full m-auto'>
-              <Image width={3126} height={2084} layout='responsive' className='m-auto' src="/images/homepage/clock-image.png" alt="" />
+              <img className='m-auto' src="/images/homepage/clock-image.png" alt="" />
             </div>
           </div>
           <h2 className='md:text-2xl m-auto mt-2 text-xl text-gray-600'><span id='counter'>34</span> Years in business</h2>
@@ -79,7 +78,7 @@ const index = () => {
         <div className='md:w-1/2 flex flex-col w-screen py-6 m-auto overflow-hidden border-b-2 border-gray-500'>
           <div className='h-[200px] md:w-[300px] md:h-[300px]md:w-[300px] md:h-[300px] m-auto flex w-[200px]'>
             <div className='block w-full m-auto'>
-              <Image width={667} height={623} layout='responsive' className='m-auto' src="/images/homepage/timesheet-image.png" alt="" />
+              <img className='m-auto' src="/images/homepage/timesheet-image.png" alt="" />
             </div>
           </div>
           <h2 className='md:text-2xl m-auto mt-2 text-xl text-gray-600'><span id='counter2'>85</span> Product Series</h2>
@@ -87,7 +86,7 @@ const index = () => {
         <div className='md:w-1/2 md:border-r-2 md:order-1 flex flex-col order-2 w-screen py-6 m-auto overflow-hidden border-b-2 border-gray-500'>
           <div className='h-[200px] md:w-[300px] md:h-[300px] m-auto flex w-[200px]'>
             <div className='block w-full m-auto'>
-              <Image width={667} height={623} layout='responsive' className='m-auto' src="/images/homepage/awards.png" alt="" />
+              <img className='m-auto' src="/images/homepage/awards.png" alt="" />
             </div>
           </div>
           <h2 className='md:text-2xl m-auto mt-2 text-xl text-gray-600'><span id='counter3'>28</span> Awards</h2>
@@ -95,7 +94,7 @@ const index = () => {
         <div className='md:w-1/2 flex flex-col order-1 w-screen py-6 m-auto overflow-hidden border-b-2 border-gray-500'>
           <div className='h-[200px] flex md:w-[300px] md:h-[300px] overflow-hidden bg-[#ececec] m-auto w-[200px] border-2 border-[#236B97] rounded-[50%]'>
             <div className='block w-full m-auto'>
-              <Image width={658} height={606} layout='responsive' className='m-auto' src="/images/homepage/partnerships.png" alt="" />
+              <img className='m-auto' src="/images/homepage/partnerships.png" alt="" />
             </div>
           </div>
           <h2 className='md:text-2xl m-auto mt-2 text-xl text-gray-600'><span id='counter4'>181</span> Partnerships</h2>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -36,7 +35,7 @@ const Footer = () => {
       <div className='md:w-1/4 flex flex-col order-2 w-screen'>
         <Link href="/">
           <div className='md:w-1/3 block w-1/4 m-auto'>
-            <Image width={1800} height={750} layout='responsive' className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
+            <img width={1800} height={750} layout='responsive' className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
           </div>
         </Link>
         <p className='m-auto text-sm font-light'>Copyright © 2022 Pro2 Solutions</p>

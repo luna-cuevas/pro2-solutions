@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 
@@ -10,7 +9,7 @@ const NavBar = () => {
       <div className='flex w-32 my-2'>
         <Link href="/">
           <button className='cursor-grab block w-full'>
-            <Image width={1800} height={750} layout='responsive' className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
+            <img className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
           </button>
         </Link>
       </div>
