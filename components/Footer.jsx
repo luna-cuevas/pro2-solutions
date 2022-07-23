@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className='md:w-1/4 flex flex-col order-2 w-screen'>
         <Link href="/">
-          <div className='block w-1/3 m-auto'>
+          <div className='md:w-1/3 block w-1/4 m-auto'>
             <Image width={1800} height={750} layout='responsive' className='w-[80px]' src="/images/pro2-logo-v2.svg" alt="logo" />
           </div>
         </Link>

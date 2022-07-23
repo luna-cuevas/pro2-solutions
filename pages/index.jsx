@@ -18,13 +18,13 @@ const index = () => {
       <div className='h-4/6 sm:h-fit relative'>
         <div className='md:block hidden w-screen h-full'>
           <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
-          <Image width={1000} height={500} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/pro2-warehouse.jpg" alt="" />
+          <Image priority width={1000} height={500} layout='responsive' className='flex w-screen h-auto' src="/images/homepage/pro2-warehouse.jpg" alt="" />
         </div>
         <div className='h-fit md:hidden'>
           <div className='opacity-50 absolute z-[2] w-screen h-full bg-black' />
-          <Image width={499} height={500} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/pro2-warehouse-mobile.jpg" alt="" />
+          <Image priority width={499} height={500} layout='responsive' className='h-4/6 flex w-screen' src="/images/homepage/pro2-warehouse-mobile.jpg" alt="" />
         </div>
-        <div className='absolute z-50 text-3xl lg:text-4xl xl:text-5xl font-bold top-1/2 left-10 sm:left-[100px] text-white'>
+        <div className='absolute z-50 text-2xl lg:text-4xl xl:text-5xl font-bold top-1/2 left-10 sm:left-[100px] text-white'>
           Your Professional,<br />
           Protective Solutions Partner
           <br />
@@ -37,17 +37,17 @@ const index = () => {
       <div className='h-fit md:flex-row flex flex-col w-screen'>
         <div className='h-[125px] md:h-[300px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='block w-1/2 m-auto'>
-            <Image width={1249} height={196} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/cranberry-logo.png" alt="" />
+            <Image loading='lazy' width={1249} height={196} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/cranberry-logo.png" alt="" />
           </div>
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 flex'>
           <div className='block w-1/2 m-auto'>
-            <Image width={1000} height={180} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/beesure-logo.png" alt="" />
+            <Image loading='lazy' width={1000} height={180} layout='responsive' className='md:w-1/2 w-2/3 m-auto' src="/images/beesure-logo.png" alt="" />
           </div>
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='block w-1/5 m-auto'>
-            <Image width={2032} height={2011} layout='responsive' className='h-4/6 md:h-1/3 w-auto m-auto' src="/images/asap-logo.png" alt="" />
+            <Image loading='lazy' width={2032} height={2011} layout='responsive' className='h-4/6 md:h-1/3 w-auto m-auto' src="/images/asap-logo.png" alt="" />
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@ const index = () => {
         </div>
       </div>
       {/* CONTACT FORM */}
-      <svg className='h-4/5 -z-10 absolute w-screen' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnssvgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+      <svg className='-z-10 h-3/4 md:h-screen absolute w-screen' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnssvgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
         <g mask="url(&quot;#SvgjsMask1044&quot;)" fill="none">
           <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
           <path d="M 0,182 C 96,154.2 288,32 480,43 C 672,54 768,222.6 960,237 C 1152,251.4 1344,139.4 1440,115L1440 560L0 560z" fill="#184a7e"></path>

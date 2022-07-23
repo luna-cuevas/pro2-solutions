@@ -28,7 +28,7 @@ const about = () => {
       <div className='md:border-none flex w-full border-t-2 border-gray-400'>
         <p className='md:text-xl xl:text-2xl w-5/6 pt-10 pb-2 m-auto text-base font-light'>Pro2 Solutions is committed to establishing efficient distribution networks through strategically appointed distributors. We have established three regional warehousing and distribution centers in California and Pennsylvania to enhance the efficiency of our distribution channels. We aim to offer customized Protective Solutions based on users' work environment and critical concerns.</p>
       </div>
-      <div className='w-4/5 m-auto'>
+      <div className='w-3/5 m-auto'>
         <img src="/images/about-us/pro2-map.svg" alt="" />
       </div>
     </div>

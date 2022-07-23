@@ -3,42 +3,40 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Myriad Pro";
-    src: url("/fonts/myriad-pro-regular.ttf")
-    format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Myriad Pro";
+  src: url("/fonts/myriad-pro-regular.ttf")
+  format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
   font-family: "Myriad Pro";
   src: url("/fonts/myriad-pro-light.otf")
   format("OpenType");
   font-weight: lighter;
+  font-display: swap;
 }
-
 @font-face {
   font-family: "Myriad Pro";
   src: url("/fonts/myriad-pro-bold.ttf")
   format("truetype");
   font-weight: bold;
   font-style: bold;
+  font-display: swap;
 }
-
 html {
   padding: 0;
   margin: 0;
 }
 
 /* HAMBURGER MENU */
-
 .hamburger {
   cursor: pointer;
   width: 48px;
   height: 48px;
   transition: all 0.25s;
 }
-
 .hamburger__top-bun,
 .hamburger__bottom-bun {
   content: '';
@@ -49,31 +47,25 @@ html {
   transform: rotate(0);
   transition: all 0.5s;
 }
-
 .hamburger:hover [class*="-bun"] {
   background: rgb(255, 255, 255);
 }
-
 .hamburger__top-bun {
   transform: translateY(0px);
 }
-
 .hamburger__bottom-bun {
   transform: translateY(10px);
 }
-
 .open {
   transform: rotate(90deg) 
     translateY(20px)
     translateX(20px);
 }
-
 .open .hamburger__top-bun {
   transform:
     rotate(45deg)
     translateY(0px);
 }
-
 .open .hamburger__bottom-bun {
   transform:
     rotate(-45deg)

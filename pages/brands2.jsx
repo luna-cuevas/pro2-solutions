@@ -9,9 +9,9 @@ const brands2 = () => {
           <img className='w-[200px]' src="/images/cranberry-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
-        <p>At Cranberry, we stress utmost importance on providing products of superior quality. Therefore, we constantly strive to develop products with the highest protection, comfort, and strength. After thriving in this industry for so many years, we truly understand your needs and demands as a professional. Be assured that our dynamic team is always moving forward, researching, and seeking to provide you with only the best.</p>
+        <p className='text-xl'>At Cranberry, we stress utmost importance on providing products of superior quality. Therefore, we constantly strive to develop products with the highest protection, comfort, and strength. After thriving in this industry for so many years, we truly understand your needs and demands as a professional. Be assured that our dynamic team is always moving forward, researching, and seeking to provide you with only the best.</p>
         <button className='px-6 mt-4 m-auto text-white py-1 transition-all duration-200 ease-in-out hover:bg-[#4e91b5] bg-[#50ABE0] text-sm font-normal rounded-3xl'>
-          <a passHref={true} href='https://www.cranberryusa.com/'>
+          <a className='text-xl' target='_blank' href='https://www.cranberryusa.com/'>
             Cranberry
           </a>
         </button>
@@ -21,9 +21,9 @@ const brands2 = () => {
           <img className='w-[200px]' src="/images/beesure-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
-        <p>At Cranberry, we stress utmost importance on providing products of superior quality. Therefore, we constantly strive to develop products with the highest protection, comfort, and strength. After thriving in this industry for so many years, we truly understand your needs and demands as a professional. Be assured that our dynamic team is always moving forward, researching, and seeking to provide you with only the best.</p>
+        <p className='text-xl'>At Cranberry, we stress utmost importance on providing products of superior quality. Therefore, we constantly strive to develop products with the highest protection, comfort, and strength. After thriving in this industry for so many years, we truly understand your needs and demands as a professional. Be assured that our dynamic team is always moving forward, researching, and seeking to provide you with only the best.</p>
         <button className='px-6 mt-4 m-auto text-white py-1 transition-all duration-200 ease-in-out hover:bg-[#4e91b5] bg-[#50ABE0] text-sm font-normal rounded-3xl'>
-          <a passHref={true} href='https://ecobeeworld.com/'>
+          <a className='text-xl' target='_blank' href='https://ecobeeworld.com/'>
             Beesure
           </a>
         </button>
@@ -33,7 +33,7 @@ const brands2 = () => {
           <img className='w-[100px]' src="/images/asap-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
-        <p>
+        <p className='w-3/4 m-auto text-xl'>
           A.S.A.P. stands for Art & Science of Amazing Protection. <br />
           <br />
           At A.S.A.P., our concept is a mix of art and science. Each A.S.A.P. glove is a combination of these two elements which aims to provide superior protection, satisfying the needs of every individual glove user. <br />
@@ -47,7 +47,7 @@ const brands2 = () => {
           Ground-breaking ideas fused with advanced technology positions ASAP at the forefront among its industry peers. This combination has propelled ASAP to another level, providing superior protection, excellent tactile sensitivity, without compromising comfort and strength. ASAP is versatile and can serve many different industries such as industrial, healthcare, and research providing a wide range of gloves which include nitrile, latex, and vinyl.
         </p>
         <button className='px-6 mt-4 m-auto text-white py-1 transition-all duration-200 ease-in-out hover:bg-[#4e91b5] bg-[#50ABE0] text-sm font-normal rounded-3xl'>
-          <a href='https://www.linkedin.com/company/pro2s'>
+          <a className='text-xl' target='_blank' href='https://www.linkedin.com/company/pro2s'>
             A.S.A.P.
           </a>
         </button>
