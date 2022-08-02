@@ -2,7 +2,7 @@ import ContactForm from '../components/ContactForm'
 import { useCountUp } from 'react-countup';
 import Link from 'next/link';
 
-const index = () => {
+const index2 = () => {
   const counters = [
     { ref: 'counter', end: 34, enableScrollSpy: true, duration: 0.8 },
     { ref: 'counter2', end: 85, enableScrollSpy: true, duration: 0.8 },
@@ -34,21 +34,21 @@ const index = () => {
       </div>
       {/* Three Logos */}
       <div className='h-fit md:flex-row flex flex-col w-screen'>
-        <div className='h-[125px] md:h-[300px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:w-1/2 bg-[#F0F0F0] flex'>
+        <div className='h-[125px] md:h-[300px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='block w-1/2 m-auto'>
             <img className='w-full m-auto' src="/images/cranberry-logo.png" alt="" />
           </div>
         </div>
-        <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/2 flex'>
+        <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 flex'>
           <div className='block w-1/2 m-auto'>
             <img className='w-full m-auto' src="/images/beesure-logo.png" alt="" />
           </div>
         </div>
-        {/* <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
+        <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='h-fit max-w-1/5 block m-auto'>
             <img className='max-h-[125px] h-full w-full m-auto' src="/images/asap-logo.png" alt="" />
           </div>
-        </div> */}
+        </div>
       </div>
       {/* Intro Blurb */}
       <div className='w-screen h-fit relative bg-[#DAF8FF]'>
@@ -118,4 +118,4 @@ const index = () => {
   )
 }
 
-export default index
+export default index2
