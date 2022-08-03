@@ -39,7 +39,19 @@ const ContactForm = () => {
   }
   
   return (
-    <div className='h-fit overflow-hidden'>
+    <div className='h-fit relative overflow-hidden'>
+      <svg className='-z-10 absolute w-screen h-full' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnssvgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+        <g mask="url(&quot;#SvgjsMask1044&quot;)" fill="none">
+          <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
+          <path d="M 0,182 C 96,154.2 288,32 480,43 C 672,54 768,222.6 960,237 C 1152,251.4 1344,139.4 1440,115L1440 560L0 560z" fill="#184a7e"></path>
+          <path d="M 0,309 C 144,353.8 432,516.4 720,533 C 1008,549.6 1296,420.2 1440,392L1440 560L0 560z" fill="#2264ab"></path>
+        </g>
+        <defs>
+          <mask id="SvgjsMask1044">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+          </mask>
+        </defs>
+      </svg>
       <div className='flex flex-col mt-10'>
         <h1 className='md:text-3xl m-auto mb-2 text-2xl text-white'>Contact Us</h1>
         <div className="w-5/6 pb-4 md:max-w-[700px] mx-auto">

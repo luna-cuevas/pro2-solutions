@@ -2,7 +2,7 @@ import React from 'react'
 
 const brands2 = () => {
   return (
-    <div className='py-14 flex-wrap md:flex md:max-w-[1440px] m-auto'>
+    <div className='py-14 flex-wrap min-h-screen md:flex md:max-w-[1440px] m-auto'>
       <div className='md:w-1/2 md:h-72 md:border-b-0 md:border-r-2 border-b-slate-300 flex flex-col px-10 pb-5 m-auto border-b-2'>
         <div className='flex flex-col items-center'>
           <img className='w-[200px]' src="/images/cranberry-logo.png" alt="" />
