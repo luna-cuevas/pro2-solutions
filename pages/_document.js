@@ -12,7 +12,7 @@ export default function Document() {
         <link
           sizes="16x16 32x32 64x64"
           rel="icon"
-          href="/images/pro2-logo-v2.png"
+          href="/images/pro2-logo-v2.svg"
         />
         <meta
           name="description"
@@ -20,7 +20,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="/images/pro2-logo.png"
+          content="/images/pro2-logo-v2.svg"
         />
         <meta
           property="og:description"

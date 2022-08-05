@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const index = () => {
   const counters = [
-    { ref: 'counter', end: 34, enableScrollSpy: true, duration: 0.8 },
-    { ref: 'counter2', end: 85, enableScrollSpy: true, duration: 0.8 },
-    { ref: 'counter3', end: 28, enableScrollSpy: true, duration: 0.8 },
-    { ref: 'counter4', end: 181, enableScrollSpy: true, duration: 0.8 }
+    { ref: 'counter', end: 34, enableScrollSpy: true, duration: 0.7 },
+    { ref: 'counter2', end: 85, enableScrollSpy: true, duration: 0.7 },
+    { ref: 'counter3', end: 28, enableScrollSpy: true, duration: 0.7 },
+    { ref: 'counter4', end: 181, enableScrollSpy: true, duration: 0.7 }
   ];
 
   counters.map((item) => { useCountUp(item) })
@@ -44,6 +44,7 @@ const index = () => {
             <img className='w-full m-auto' src="/images/beesure-logo.png" alt="" />
           </div>
         </div>
+        {/* ASAP LOGO */}
         {/* <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='h-fit max-w-1/5 block m-auto'>
             <img className='max-h-[125px] h-full w-full m-auto' src="/images/asap-logo.png" alt="" />
