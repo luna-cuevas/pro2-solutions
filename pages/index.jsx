@@ -52,8 +52,8 @@ const index = () => {
         </div> */}
       </div>
       {/* Intro Blurb */}
-      <div className='w-screen h-fit relative bg-[#DAF8FF]'>
-        <svg className='-z-10 w-screen h-64' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+      <div className='w-screen h-fit justify-center relative bg-[#DAF8FF]'>
+        <svg className='-z-10 max-h-64 w-screen' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
           <g mask="url(&quot;#SvgjsMask1055&quot;)" fill="none">
             <rect width="1440" height="560" x="0" y="0" fill="rgba(218, 248, 255, 1)"></rect>
             <path d="M 0,271 C 96,298.2 288,407.8 480,407 C 672,406.2 768,248.2 960,267 C 1152,285.8 1344,454.2 1440,501L1440 560L0 560z" fill="rgba(149, 188, 245, 1)"></path>
@@ -64,7 +64,7 @@ const index = () => {
             </mask>
           </defs>
         </svg>
-        <p className='lg:w-1/2 top-10 py-14 lg:text-3xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-2xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
+        <p className='lg:w-1/2 top-20 md:top-10 md:py-14 lg:text-3xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-2xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
       </div>
       {/* About Us Blocks */}
       <div className='h-fit md:flex-row flex flex-col flex-wrap m-auto'>
