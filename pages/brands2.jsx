@@ -4,7 +4,7 @@ const brands2 = () => {
   return (
     <div className='py-14 flex-wrap min-h-screen md:flex md:max-w-[1440px] m-auto'>
       <div className='md:w-1/2 md:h-72 md:border-b-0 md:border-r-2 border-b-slate-300 flex flex-col px-10 pb-5 m-auto border-b-2'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center my-4'>
           <img className='w-[200px]' src="/images/cranberry-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
@@ -16,7 +16,7 @@ const brands2 = () => {
         </button>
       </div>
       <div className='md:w-1/2 md:h-72 md:pt-0 flex flex-col px-10 pt-6 m-auto my-4'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center my-4'>
           <img className='w-[200px]' src="/images/beesure-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
@@ -28,11 +28,11 @@ const brands2 = () => {
         </button>
       </div>
       <div className='md:w-max border-b-slate-300 flex flex-col px-10 pt-6 border-t-2'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center my-4'>
           <img className='w-[100px]' src="/images/asap-logo.png" alt="" />
           <p>EST 1988</p>
         </div>
-        <p className='w-3/4 m-auto text-xl'>
+        <p className='md:w-3/4 m-auto text-xl'>
           A.S.A.P. stands for Art & Science of Amazing Protection. <br />
           <br />
           At A.S.A.P., our concept is a mix of art and science. Each A.S.A.P. glove is a combination of these two elements which aims to provide superior protection, satisfying the needs of every individual glove user. <br />
