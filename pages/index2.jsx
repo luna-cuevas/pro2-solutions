@@ -46,7 +46,7 @@ const index2 = () => {
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
           <div className='h-fit max-w-1/5 block m-auto'>
-            <img className='max-h-[125px] h-full w-auto m-auto' src="/images/asap-logo.png" alt="" />
+            <img className='max-h-[125px] py-4  h-full w-auto m-auto' src="/images/asap-logo.png" alt="" />
           </div>
         </div>
       </div>

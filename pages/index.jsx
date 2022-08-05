@@ -64,7 +64,7 @@ const index = () => {
             </mask>
           </defs>
         </svg>
-        <p className='lg:w-1/2 top-20 md:top-10 md:py-14 lg:text-3xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-2xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
+        <p className='lg:w-1/2 top-14 md:top-10 md:py-14 lg:text-3xl absolute bottom-0 left-0 right-0 w-5/6 mx-auto text-2xl font-normal text-center'>At Pro2 Solutions, we are committed to providing you with the highest quality protective solutions for infection control products.</p>
       </div>
       {/* About Us Blocks */}
       <div className='h-fit md:flex-row flex flex-col flex-wrap m-auto'>
