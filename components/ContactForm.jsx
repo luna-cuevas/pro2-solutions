@@ -58,6 +58,17 @@ const ContactForm = () => {
           <div className="rounded-xl sm:rounded-md p-6 bg-gray-800 border border-gray-600">
             <form ref={form} onSubmit={submit}>
               <label className="block mb-6">
+                <span className="text-gray-300">Subject</span>
+                <input
+                  name="sku"
+                  type="text"
+                  className="focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full p-2 mt-1 text-gray-300 placeholder-gray-600 bg-transparent border-2 border-gray-600 rounded-md shadow-sm"
+                  placeholder="Subject"
+                  value={ContactFormSKU}
+                  onChange={e => setContactFormSKU(e.target.value)}
+                />
+              </label>
+              <label className="block mb-6">
                 <span className="text-gray-300">Your name</span>
                 <input
                   name="name"
@@ -78,17 +89,6 @@ const ContactForm = () => {
                   required
                   value={ContactFormEmail}
                   onChange={e => setContactFormEmail(e.target.value)}
-                />
-              </label>
-              <label className="block mb-6">
-                <span className="text-gray-300">Product SKU</span>
-                <input
-                  name="sku"
-                  type="text"
-                  className="focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full p-2 mt-1 text-gray-300 placeholder-gray-600 bg-transparent border-2 border-gray-600 rounded-md shadow-sm"
-                  placeholder="SKU1234"
-                  value={ContactFormSKU}
-                  onChange={e => setContactFormSKU(e.target.value)}
                 />
               </label>
               <label className="block mb-6">

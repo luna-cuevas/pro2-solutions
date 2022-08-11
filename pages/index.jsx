@@ -35,20 +35,26 @@ const index = () => {
       {/* Three Logos */}
       <div className='h-fit md:flex-row flex flex-col w-screen'>
         <div className='h-[125px] md:h-[300px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:w-1/2 bg-[#F0F0F0] flex'>
-          <div className='block w-1/2 m-auto'>
-            <img className='w-full m-auto' src="/images/cranberry-logo.png" alt="" />
-          </div>
+          <a href='http://www.cranberryusa.com/' className='block w-1/2 m-auto'>
+            <div>
+              <img className='w-full m-auto' src="/images/cranberry-logo.png" alt="" />
+            </div>
+          </a>
         </div>
         <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/2 flex'>
-          <div className='block w-1/2 m-auto'>
-            <img className='w-full m-auto' src="/images/beesure-logo.png" alt="" />
-          </div>
+          <a href='http://www.ecobeeworld.com/' className='block w-1/2 m-auto'>
+            <div>
+              <img className='w-full m-auto' src="/images/beesure-logo.png" alt="" />
+            </div>
+          </a>
         </div>
         {/* ASAP LOGO */}
         {/* <div className='h-[125px] hover:shadow-xl transition-all duration-200 hover:shadow-gray-900/30 md:h-[300px] md:w-1/3 bg-[#F0F0F0] flex'>
-          <div className='h-fit max-w-1/5 block m-auto'>
-            <img className='max-h-[125px] h-full w-full m-auto' src="/images/asap-logo.png" alt="" />
-          </div>
+          <a href="http://www.whyasap.us/" className='h-fit max-w-1/5 block m-auto'>
+            <div className='h-fit max-w-1/5 block m-auto'>
+              <img className='max-h-[125px] py-4  h-full w-auto m-auto' src="/images/asap-logo.png" alt="" />
+            </div>
+          </a>
         </div> */}
       </div>
       {/* Intro Blurb */}
